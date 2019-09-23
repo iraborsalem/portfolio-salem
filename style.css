@@ -1,0 +1,135 @@
+* {
+	margin:  0;
+	padding: 0;
+}
+body, html {
+	color:white;
+	font-family: 'lato', sans- serif;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	min-height: 100vh;
+}
+
+body {
+	background-image: url(pics/bg-image.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+.center .cll img {
+	border-radius: 30%;
+	width: 130px;
+	height: 150px;
+	margin-top: 10px;
+	object-fit: cover;
+	object-position: 8px
+	align-content:center;
+}
+#gold-text {
+	color: #ff9933;
+}
+ h1 {
+ 	color: white;
+ }
+.content {
+	color: linen;
+}
+.center {
+	width:202%;
+	background-color:#92b9b9;
+	height: 66vh;
+	text-align: center;
+	border-radius: 5px;
+	
+	/*opacity:;*/ 
+}
+.content .h2{ 
+	font-weight: 400;
+}
+.content .h3 {
+	margin-top: 20px;
+}
+
+p{
+	color: white;
+}
+
+.summary {
+	text-decoration: none
+}
+li, ul {
+	 
+    border-color:#2e2e1f;
+	text-align: left;
+	color:#2e2e1f;
+	border: 1px #ccfff5;
+	border-style: ridge;
+	border-radius: 5px;
+}
+
+li:hover {
+	background-color:#006652;/*#2e2e1f;*/
+	color:white;
+	font-size: 20px;
+}
+
+
+div#socialSharing a span.fa-lg {
+    border-radius: 50%;
+    margin: 1%;
+    color: #FFFFFF;
+}
+ 
+div#socialSharing a span.fa-lg i {
+    font-style: normal;
+}
+ 
+div#socialSharing a span#facebook {
+    background-color: #3b5998;
+}
+ 
+div#socialSharing a span#facebook:hover {
+    background-color: #133783;
+}
+ 
+div#socialSharing a span#twitter {
+    background-color: #1da1f2;
+}
+ 
+div#socialSharing a span#twitter:hover {
+    background-color: #2582bb;
+}
+ 
+div#socialSharing a span#pinterest {
+    background-color: #bd081c;
+}
+ 
+div#socialSharing a span#pinterest:hover {
+    background-color: #880e1c;
+}
+ 
+div#socialSharing a span#googleplus {
+    background-color: #db4437;
+}
+ 
+div#socialSharing a span#googleplus:hover {
+    background-color: #cf1808;
+}
+ 
+div#socialSharing a span#linkedin {
+    background-color: #0077b5;
+}
+ 
+div#socialSharing a span#linkedin:hover {
+    background-color: #02689d;
+}
+ 
+div#socialSharing a span#whatsapp {
+    background-color: #00E676;
+}
+ 
+div#socialSharing a span#whatsapp:hover {
+    background-color: #03c164;
+}
